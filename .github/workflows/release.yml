@@ -32,6 +32,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_name: impasti.exe
-          asset_path: build/Release/impasti.exe
+          asset_name: impasta.exe
+          asset_path: build/Release/impasta.exe
           asset_content_type: application/vnd.microsoft.portable-executable
