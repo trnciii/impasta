@@ -1,3 +1,7 @@
+allow execution from property > security.
+
+![](docs/property.jpg)
+
 add below registry keys and impasta is available in the context menu.
 
 |key|value|
